@@ -38,7 +38,7 @@ To begin the analysis, the password-protected ZIP file was unlocked using the pa
 | Q6: What was the first file extension tested during the enumeration? | html |
 | Q7: What is the full vulnerable request parameter used in the attack? | file |
 | Q8: What is the username discovered by the attacker? | zoro |
-| Q9: What SSH-related file did the attacker try to access, enter the full path? | /home/zoro/.ssh/authorized_keys |
+| Q9: What authentication-related file did the attacker try to access, enter the full path? | /home/zoro/.ssh/authorized_keys |
 | Q10: When were the first brute force attempts occurred by the attacker to get the right password? | 09:02:47,19 |
 
 ---
@@ -221,7 +221,7 @@ zoro:x:1000:1000::/home/zoro:/bin/bash
 
 ---
 
-### Q9: SSH-Related File Access
+### Q9: Authentication-Related File Access
 
 **Wireshark Filter Used:**
 ```
@@ -232,7 +232,7 @@ This filter shows successful HTTP responses to identify what files the attacker 
 
 ![SSH authorized_keys access](assets/9.png)
 
-**SSH-Related File Accessed:**
+**Authentication-Related File Accessed:**
 ```
 /home/zoro/.ssh/authorized_keys
 ```
