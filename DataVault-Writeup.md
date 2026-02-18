@@ -2,7 +2,7 @@
 
 ## Challenge Info
 - **Category:** Web
-- **Difficulty:** Medium
+- **Difficulty:** easy
 - **Flag:** `flag{XX3_v!a_C0nt3nt_Typ3_Sw1tch}`
 
 ---
